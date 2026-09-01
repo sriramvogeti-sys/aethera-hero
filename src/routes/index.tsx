@@ -125,10 +125,7 @@ function Index() {
             we build <em className="text-[#6F6F6F]">the eternal.</em>
           </h1>
           <p className="animate-fade-rise-delay mt-8 max-w-2xl text-base leading-relaxed text-[#6F6F6F] sm:text-lg">
-            ASCEND is Aditya University's career acceleration, leadership, and
-            media platform — building platforms for brilliant minds, fearless
-            makers, and thoughtful souls. Through the noise, we craft havens
-            for deep work and pure flows.
+            ASCEND x Aditya University
           </p>
           <Link
             to="/reach-us"
