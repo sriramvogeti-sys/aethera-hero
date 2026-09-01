@@ -11,8 +11,13 @@ const NAV_ITEMS = [
 export function SiteNav() {
   return (
     <nav className="relative z-10 mx-auto flex max-w-7xl items-center justify-between px-8 py-6">
-      <Link to="/" className="font-display text-3xl tracking-tight text-black">
-        Ascend<sup className="text-sm">®</sup>
+      <Link to="/" className="flex items-center gap-3 font-display text-3xl tracking-tight text-black">
+        <img
+          src="/site-logo.svg"
+          alt="ASCEND"
+          className="h-8 w-auto"
+        />
+        <span>Ascend<sup className="text-sm">®</sup></span>
       </Link>
       <div className="hidden items-center gap-8 md:flex">
         {NAV_ITEMS.map((item) => (
