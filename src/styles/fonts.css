@@ -1,0 +1,7 @@
+/* Font families — actual font files are loaded via <link> in src/routes/__root.tsx
+   (Tailwind v4 / Lightning CSS cannot resolve remote @import URLs). */
+
+@theme {
+  --font-display: "Instrument Serif", Georgia, serif;
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+}
