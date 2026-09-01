@@ -60,8 +60,8 @@ export const SERIES: Series[] = [
 ];
 
 export function SeriesTabs() {
-  const [active, setActive] = useState(SERIES[0].id);
-  const current = SERIES.find((s) => s.id === active) ?? SERIES[0];
+  const [active, setActive] = useState(SERIES[0]!.id);
+  const current = SERIES.find((s) => s.id === active) ?? SERIES[0]!;
 
   return (
     <div>
